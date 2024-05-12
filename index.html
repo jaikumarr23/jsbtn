@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <script>
-function Happy()
-{
-    document.getElementById("image").src="first (2).png";
-}
-function Angry()
-{
-    document.getElementById("image").src="first (1).png";
-}
-function N(){
-    document.getElementById("rj").src="second.jpg";
+    function Happy() {
+        document.getElementById("image").src = "first (2).png";
+    }
+    function Angry() {
+        document.getElementById("image").src = "first (1).png";
+    }
+    function N() {
+        document.getElementById("rj").src = "second.jpg";
 
-}
-function baba(){
-    document.getElementById("rj").src="second.webp";
+    }
+    function baba() {
+        document.getElementById("rj").src = "second (2).jpg";
 
-}
+    }
 </script>
+
 <body>
-    <img src="first (1).png" alt="" id="image">
+    <h1>Using <span class="onc">onclick</span> JS</h1>
+    <div class="body">
+        <div class="blk">
+            <div class="fahd">
+                <img src="first (1).png" alt="" id="image">
 
-    <button onclick="Happy()">
-        Happy
-    </button>
-    <button onclick="Angry()">
-        Angry
-    </button>
-    <img src="second.jpg" alt="" id="rj">
+                <button onclick="Happy()">
+                    Happy
+                </button>
+                <button onclick="Angry()">
+                    Angry
+                </button>
 
-    <button onclick="N()">
-        Normal
-    </button>
-    <button onclick="baba()">
-        Baba Mode
-    </button>
+            </div>
+            <div class="rjk">
+                <img src="second.jpg" alt="" id="rj">
+
+                <button onclick="N()">
+                    Normal
+                </button>
+                <button onclick="baba()">
+                    Baba Mode
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+<em>JAIKUMAR R - IT 2nd Year</em>
 </body>
+
 </html>
-
-

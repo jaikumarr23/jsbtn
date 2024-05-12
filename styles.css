@@ -1,8 +1,38 @@
+.onc{
+    color:blue
+}
 img{
     display: block;
     width: 300px;
     height: 300px;
+    box-shadow: 0 0 10px yellow;
+    border-radius: 15px;
 }
 *{
     background-color: aquamarine;
+}
+.blk{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 15px;
+
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.rjk, .fahd{
+padding: 10px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 15px;
+
 }
